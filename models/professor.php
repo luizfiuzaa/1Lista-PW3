@@ -3,18 +3,18 @@
 namespace Pessoa;
 
 class Professor{
-    private $codigo; 
+    private $codigo = array(); 
     private $nome;
-    private $email;
-    private $telefone;
-    private $endereco;
+    private $email = array();
+    private $telefone = array();
+    private $endereco = array();
 
     function setCodigo($codigo){
         $this->codigo = $codigo;
     }
 
     function getCodigo(){
-        $this->codigo;
+       return $this->codigo;
     }
 
     function setNome($nome){
