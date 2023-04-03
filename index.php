@@ -17,7 +17,7 @@
   $email2->setEmail('carlao1kgrau@email.com');
 
   $telefone1 = new Contato\Telefone();
-  $telefone1->setTelefone('15 99999999');
+  $telefone1->setTelefone('15 99999999');//teste
 
   $endereco1 = new Pessoa\Endereco();
   $endereco1->setLogradouro('Rua Animosidade Extrema');
