@@ -2,13 +2,13 @@
   namespace Contato;
 
   class Telefone{
-    private $telefone;
+    private $numero;
 
-    function setTelefone($telefone){
-      $this->telefone = $telefone;
+    function setNumero($numero){
+      $this->numero = $numero;
   }
-  function getTelefone(){
-      return $this->telefone;
+  function getNumero(){
+      return $this->numero;
   }
   }
 ?>

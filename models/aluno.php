@@ -14,7 +14,7 @@ class Aluno{
     }
 
     function getCodigo(){
-       return $this->codigo;
+        return $this->codigo;
     }
 
     function setNome($nome){
@@ -25,21 +25,21 @@ class Aluno{
     }
 
     function setEmail($email){
-        $this->email = $email;
+        $this->email[] = $email;
     }
     function getEmail(){
         return $this->email;
     }
 
     function setTelefone($telefone){
-        $this->telefone = $telefone;
+        $this->telefone[] = $telefone;
     }
     function getTelefone(){
         return $this->telefone;
     }
 
     function setEndereco($endereco){
-        $this->endereco = $endereco;
+        $this->endereco[] = $endereco;
     }
     function getEndereco(){
         return $this->endereco;
